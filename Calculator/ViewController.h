@@ -9,6 +9,13 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    int currentOperation;
+    float result;
+    float currentNumber;
+}
+
+@property (weak, nonatomic) IBOutlet UILabel *label;
 
 
 @end
